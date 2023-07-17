@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16474;
+		nextID=16678;
 	};
 	class Camera
 	{
@@ -27,7 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="bn_mikeforce_indev";
+sourceName="bn_mikeforce_events";
 addons[]=
 {
 	"A3_Ui_F",
@@ -701,7 +701,7 @@ class Mission
 	appId=1227700;
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03 Indev) BN Edition";
+		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed.";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.34999999;
@@ -1129,7 +1129,7 @@ class Mission
 				};
 			};
 			id=686;
-			atlOffset=48.882175;
+			atlOffset=52.259167;
 		};
 		class Item19
 		{
@@ -45801,7 +45801,6 @@ class Mission
 			};
 			id=13798;
 			type="vn_o_armor_pt76a_01_pl";
-			atlOffset=0.0071144104;
 		};
 		class Item937
 		{
@@ -45820,7 +45819,7 @@ class Mission
 			};
 			id=13799;
 			type="vn_o_armor_pt76a_01_pl";
-			atlOffset=4.7683716e-006;
+			atlOffset=-0.00064277649;
 		};
 		class Item938
 		{
@@ -82528,7 +82527,7 @@ class Mission
 			};
 			id=15558;
 			type="vn_b_air_uh1d_04_09";
-			atlOffset=4.4036255;
+			atlOffset=4.3163528;
 		};
 		class Item1429
 		{
