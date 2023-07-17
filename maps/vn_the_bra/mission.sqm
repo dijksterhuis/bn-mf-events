@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=628;
+		nextID=641;
 	};
 	class Camera
 	{
@@ -355,7 +355,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed";
+		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed.";
 		timeOfChanges=1800.0002;
 		startWeather=0.25;
 		startWind=0.1;
@@ -15593,7 +15593,7 @@ class Mission
 			text="@STR_vn_mf_duty_officer";
 			type="mil_dot";
 			colorName="ColorWhite";
-			angle=359.70795;
+			angle=359.70792;
 			id=1077;
 		};
 		class Item365

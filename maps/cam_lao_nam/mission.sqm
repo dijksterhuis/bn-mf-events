@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=16576;
+		nextID=16678;
 	};
 	class Camera
 	{
@@ -600,8 +600,8 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="SharedObjectives";
-			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
+			property="ReviveRequiredItems";
+			expression="false";
 			class Value
 			{
 				class data
@@ -651,8 +651,8 @@ class CustomAttributes
 		};
 		class Attribute4
 		{
-			property="ReviveRequiredItems";
-			expression="false";
+			property="SharedObjectives";
+			expression="if (isMultiplayer) then {[_value] spawn bis_fnc_sharedObjectives;};";
 			class Value
 			{
 				class data
@@ -701,7 +701,7 @@ class Mission
 	appId=1227700;
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed";
+		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed.";
 		resistanceWest=0;
 		timeOfChanges=1800.0002;
 		startWeather=0.34999999;
