@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=472;
+		nextID=506;
 	};
 	class Camera
 	{
@@ -27,7 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="bn_mikeforce_indev";
+sourceName="bn_mikeforce_events";
 addons[]=
 {
 	"modules_f_vietnam",
@@ -329,7 +329,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03 Indev) BN Edition";
+		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed.";
 		timeOfChanges=1800.0002;
 		startWeather=0.30000001;
 		startWind=0.1;
@@ -664,7 +664,7 @@ class Mission
 					dataType="Layer";
 					name="Markers";
 					id=8;
-					atlOffset=85.407478;
+					atlOffset=185.97;
 				};
 				class Item1
 				{
@@ -695,7 +695,7 @@ class Mission
 						};
 					};
 					id=9;
-					atlOffset=85.922516;
+					atlOffset=9.6380005;
 				};
 				class Item2
 				{
@@ -717,11 +717,11 @@ class Mission
 						};
 					};
 					id=19;
-					atlOffset=44.44754;
+					atlOffset=185.97;
 				};
 			};
 			id=7;
-			atlOffset=86.738556;
+			atlOffset=-106.65665;
 		};
 		class Item5
 		{
@@ -10878,7 +10878,7 @@ class Mission
 							text="Initial Supply Drop 1";
 							type="Empty";
 							colorName="ColorOrange";
-							angle=225.49707;
+							angle=225.49704;
 							id=1058;
 							atlOffset=0.50146294;
 						};

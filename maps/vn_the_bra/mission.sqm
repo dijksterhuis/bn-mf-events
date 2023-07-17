@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=615;
+		nextID=628;
 	};
 	class Camera
 	{
@@ -27,7 +27,7 @@ class EditorData
 	};
 };
 binarizationWanted=0;
-sourceName="bn_mikeforce_indev";
+sourceName="bn_mikeforce_events";
 addons[]=
 {
 	"modules_f_vietnam",
@@ -355,7 +355,7 @@ class Mission
 	assetType="Free";
 	class Intel
 	{
-		briefingName="Mike Force (v1.00.03 Indev) BN Edition";
+		briefingName="Mike Force (v1.00.03 Indev) BN Events Ed";
 		timeOfChanges=1800.0002;
 		startWeather=0.25;
 		startWind=0.1;
@@ -1637,7 +1637,7 @@ class Mission
 			dataType="Layer";
 			name="Zones";
 			id=125;
-			atlOffset=150.40306;
+			atlOffset=-29.639999;
 		};
 		class Item16
 		{
@@ -15593,7 +15593,7 @@ class Mission
 			text="@STR_vn_mf_duty_officer";
 			type="mil_dot";
 			colorName="ColorWhite";
-			angle=359.70798;
+			angle=359.70795;
 			id=1077;
 		};
 		class Item365
