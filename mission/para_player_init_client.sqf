@@ -87,10 +87,7 @@ progressLoadingScreen 0.48;
 uiSleep 0.4;
 progressLoadingScreen 0.5;
 
-/*
-@dijksterhuis disabled for curator events
 ["action_manager", vn_mf_fnc_action_init, [], 5] call para_g_fnc_scheduler_add_job;
-*/
 
 [parseText format["<t font='tt2020base_vn' color='#F5F2D0'>%1</t>",localize "STR_vn_mf_loading11"]] call vn_mf_fnc_update_loading_screen;
 
